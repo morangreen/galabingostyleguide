@@ -103,7 +103,8 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
     };
     ```
     
-   - Never Declare Number, String, or Boolean Objects
+   - Never Declare Number, String, or Boolean Objects.
+   
     Always treat numbers, strings, or booleans as primitive values. Not as objects.
     
     >Why? Declaring these types as objects, slows down execution speed, and produces nasty side effects:
@@ -114,7 +115,7 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
     (x === y) // is false because x is a string and y is an object.
     ```
     
-    Or even worse:
+    >Or even worse:
     
     ```javascript
     var x = new String("John");             
