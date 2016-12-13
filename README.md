@@ -50,7 +50,6 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
     + `null`
     + `undefined`
 
-
     ```javascript
     var foo = 1;
     var bar = foo;
@@ -103,7 +102,26 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
       hidden: true
     };
     ```
+    
+   -Never Declare Number, String, or Boolean Objects
+    Always treat numbers, strings, or booleans as primitive values. Not as objects.
+    
+    >Why? Declaring these types as objects, slows down execution speed, and produces nasty side effects:
 
+    ```javascript
+    var x = "John";             
+    var y = new String("John");
+    (x === y) // is false because x is a string and y is an object.
+    ```
+    
+    Or even worse:
+    
+    ```javascript
+    var x = new String("John");             
+    var y = new String("John");
+    (x == y) // is false because you cannot compare objects.
+    ```
+    
   - Use readable synonyms in place of reserved words.
 
     ```javascript
