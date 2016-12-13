@@ -77,14 +77,28 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
 
 ## Objects
 
-  - Use the literal syntax for object creation.
+  - Don't Use new Object()
+  
+   -Use {} instead of new Object()
+   -Use "" instead of new String()
+   -Use 0 instead of new Number()
+   -Use false instead of new Boolean()
+   -Use [] instead of new Array()
+   -Use /()/ instead of new RegExp()
+   -Use function (){} instead of new Function()
 
     ```javascript
     // bad
     var item = new Object();
 
     // good
-    var item = {};
+    var x1 = {};           // new object
+    var x2 = "";           // new primitive string
+    var x3 = 0;            // new primitive number
+    var x4 = false;        // new primitive boolean
+    var x5 = [];           // new array object
+    var x6 = /()/;         // new regexp object
+    var x7 = function(){}; // new function object
     ```
 
   - Don't use [reserved words](http://es5.github.io/#x7.6.1) as keys. It won't work in IE8. [More info](https://github.com/airbnb/javascript/issues/61).
