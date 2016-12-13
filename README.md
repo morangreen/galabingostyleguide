@@ -103,7 +103,7 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
     };
     ```
     
-   - Never Declare Number, String, or Boolean Objects.
+  - Never Declare Number, String, or Boolean Objects.
    
     Always treat numbers, strings, or booleans as primitive values. Not as objects.
     
