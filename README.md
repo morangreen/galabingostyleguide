@@ -40,6 +40,8 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
 
 ## Types
 
+  <a name="types--primitives"></a><a name="1.1"></a>
+  
   - **Primitives**: When you access a primitive type you work directly on its value.
 
     + `string`
