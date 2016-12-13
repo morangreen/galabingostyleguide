@@ -50,6 +50,7 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
     + `null`
     + `undefined`
 
+
     ```javascript
     var foo = 1;
     var bar = foo;
