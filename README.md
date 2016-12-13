@@ -79,13 +79,13 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
 
   - Don't Use new Object()
   
-   -Use {} instead of new Object()
-   -Use "" instead of new String()
-   -Use 0 instead of new Number()
-   -Use false instead of new Boolean()
-   -Use [] instead of new Array()
-   -Use /()/ instead of new RegExp()
-   -Use function (){} instead of new Function()
+   - Use {} instead of new Object()
+   - Use "" instead of new String()
+   - Use 0 instead of new Number()
+   - Use false instead of new Boolean()
+   - Use [] instead of new Array()
+   - Use /()/ instead of new RegExp()
+   - Use function (){} instead of new Function()
 
     ```javascript
     // bad
