@@ -605,11 +605,11 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
 
 
 ## Comparison Operators & Equality
- <a name="comparison--eqeqeq"></a><a name="11.1"></a>
-  - [11.1](#comparison--eqeqeq) Use `===` and `!==` over `==` and `!=`. eslint: [`eqeqeq`](http://eslint.org/docs/rules/eqeqeq.html)
+ <a name="comparison--eqeqeq"></a><a name="9.1"></a>
+  - [9.1](#comparison--eqeqeq) Use `===` and `!==` over `==` and `!=`. eslint: [`eqeqeq`](http://eslint.org/docs/rules/eqeqeq.html)
 
   <a name="comparison--if"></a><a name="15.2"></a>
-  - [11.2](#comparison--if) Conditional statements such as the `if` statement evaluate their expression using coercion with the `ToBoolean` abstract method and always follow these simple rules:
+  - [9.2](#comparison--if) Conditional statements such as the `if` statement evaluate their expression using coercion with the `ToBoolean` abstract method and always follow these simple rules:
 
     + **Objects** evaluate to **true**
     + **Undefined** evaluates to **false**
@@ -625,8 +625,8 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
     }
     ```
 
-  <a name="comparison--shortcuts"></a><a name="15.3"></a>
-  - [11.3](#comparison--shortcuts) Use shortcuts for booleans, but explicit comparisons for strings and numbers.
+  <a name="comparison--shortcuts"></a><a name="9.3"></a>
+  - [9.3](#comparison--shortcuts) Use shortcuts for booleans, but explicit comparisons for strings and numbers.
 
     ```javascript
     // bad
@@ -660,11 +660,11 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
     }
     ```
 
-  <a name="comparison--moreinfo"></a><a name="11.4"></a>
-  - [11.4](#comparison--moreinfo) For more information see [Truth Equality and JavaScript](https://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll.
+  <a name="comparison--moreinfo"></a><a name="9.4"></a>
+  - [9.4](#comparison--moreinfo) For more information see [Truth Equality and JavaScript](https://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll.
 
-  <a name="comparison--switch-blocks"></a><a name="11.5"></a>
-  - [11.5](#comparison--switch-blocks) Use braces to create blocks in `case` and `default` clauses that contain lexical declarations (e.g. `let`, `const`, `function`, and `class`).
+  <a name="comparison--switch-blocks"></a><a name="9.5"></a>
+  - [9.5](#comparison--switch-blocks) Use braces to create blocks in `case` and `default` clauses that contain lexical declarations (e.g. `let`, `const`, `function`, and `class`).
 
   > Why? Lexical declarations are visible in the entire `switch` block but only get initialized when assigned, which only happens when its `case` is reached. This causes problems when multiple `case` clauses attempt to define the same thing.
 
@@ -709,8 +709,8 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
     }
     ```
 
-  <a name="comparison--nested-ternaries"></a><a name="11.6"></a>
-  - [11.6](#comparison--nested-ternaries) Ternaries should not be nested and generally be single line expressions.
+  <a name="comparison--nested-ternaries"></a><a name="9.6"></a>
+  - [9.6](#comparison--nested-ternaries) Ternaries should not be nested and generally be single line expressions.
 
     eslint rules: [`no-nested-ternary`](http://eslint.org/docs/rules/no-nested-ternary.html).
 
@@ -733,8 +733,8 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
     const foo = maybe1 > maybe2 ? 'bar' : maybeNull;
     ```
 
-  <a name="comparison--unneeded-ternary"></a><a name="11.7"></a>
-  - [11.7](#comparison--unneeded-ternary) Avoid unneeded ternary statements.
+  <a name="comparison--unneeded-ternary"></a><a name="9.7"></a>
+  - [9.7](#comparison--unneeded-ternary) Avoid unneeded ternary statements.
 
     eslint rules: [`no-unneeded-ternary`](http://eslint.org/docs/rules/no-unneeded-ternary.html).
 
