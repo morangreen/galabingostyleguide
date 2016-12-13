@@ -1,6 +1,7 @@
-# Airbnb JavaScript Style Guide() {
+# GalaBingo JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
+<sub>Based on [Airbnb](https://github.com/airbnb/javascript).</sub>
 
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb.svg)](https://www.npmjs.com/package/eslint-config-airbnb)
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb-base.svg)](https://www.npmjs.com/package/eslint-config-airbnb-base)
