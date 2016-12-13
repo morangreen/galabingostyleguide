@@ -2,7 +2,7 @@
 
 *A mostly reasonable approach to JavaScript*
 
-Based on [Airbnb](https://github.com/airbnb/javascript)
+Based on [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb.svg)](https://www.npmjs.com/package/eslint-config-airbnb)
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb-base.svg)](https://www.npmjs.com/package/eslint-config-airbnb-base)
