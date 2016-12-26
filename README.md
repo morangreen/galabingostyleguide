@@ -1022,26 +1022,10 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
     // good
     $('#items')
       .find('.selected')
-        .highlight()
-        .end()
+      .attr('selected', 'true')
       .find('.open')
-        .updateCount();
-
-    // bad
-    var leds = stage.selectAll('.led').data(data).enter().append('svg:svg').classed('led', true)
-        .attr('width', (radius + margin) * 2).append('svg:g')
-        .attr('transform', 'translate(' + (radius + margin) + ',' + (radius + margin) + ')')
-        .call(tron.led);
-
-    // good
-    var leds = stage.selectAll('.led')
-        .data(data)
-      .enter().append('svg:svg')
-        .classed('led', true)
-        .attr('width', (radius + margin) * 2)
-      .append('svg:g')
-        .attr('transform', 'translate(' + (radius + margin) + ',' + (radius + margin) + ')')
-        .call(tron.led);
+      .attr('opened', 'true')
+      
     ```
 
   - Leave a blank line after blocks and before the next statement
