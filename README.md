@@ -1009,7 +1009,7 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
 
     ```javascript
     // bad
-    $('#items').find('.selected').attr('selected', 'true').find('.open').attr('opened', 'true');
+    $('#items').find('.selected').attr('selected', 'true').find('.open').attr('open', 'true');
 
     // bad
     $('#items').
