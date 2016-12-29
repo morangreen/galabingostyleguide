@@ -155,6 +155,29 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
       type: 'alien'
     };
     ```
+    
+
+  <a name="objects--quoted-props"></a><a name="3.8"></a>
+  - [3.6](#objects--quoted-props) Only quote properties that are invalid identifiers. eslint: [`quote-props`](http://eslint.org/docs/rules/quote-props.html) jscs: [`disallowQuotedKeysInObjects`](http://jscs.info/rule/disallowQuotedKeysInObjects)
+
+  > Why? In general we consider it subjectively easier to read. It improves syntax highlighting, and is also more easily optimized by many JS engines.
+
+  ```javascript
+  // bad
+  const bad = {
+    'foo': 3,
+    'bar': 4,
+    'data-blah': 5,
+  };
+
+  // good
+  const good = {
+    foo: 3,
+    bar: 4,
+    'data-blah': 5,
+  };
+  ```
+
 
 **[⬆ back to top](#table-of-contents)**
 
