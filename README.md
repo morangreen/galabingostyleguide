@@ -753,12 +753,12 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
   - [9.8](#comparison--descriptive-conditions) Use descriptive conditions.
 
     ```javascript
-    // bad
+  // bad
   if (password.length >= 4 && /^(?=.*\d).{4,}$/.test(password)) {
     console.log('losing');
   }
 
-    // good
+  // good
   var isValidPassword = password.length >= 4 && /^(?=.*\d).{4,}$/.test(password);
 
   if (isValidPassword) {
