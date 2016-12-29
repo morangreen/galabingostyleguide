@@ -755,16 +755,16 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
     ```javascript
     // bad
   if (password.length >= 4 && /^(?=.*\d).{4,}$/.test(password)) {
-  console.log('losing');
-}
-
+    console.log('losing');
+  }
 
     // good
- var isValidPassword = password.length >= 4 && /^(?=.*\d).{4,}$/.test(password);
+  var isValidPassword = password.length >= 4 && /^(?=.*\d).{4,}$/.test(password);
 
-if (isValidPassword) {
-  console.log('winning');
-    ```
+  if (isValidPassword) {
+    console.log('winning');
+  }
+   ```
 
 
 **[⬆ back to top](#table-of-contents)**
