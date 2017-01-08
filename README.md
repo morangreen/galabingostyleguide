@@ -940,7 +940,7 @@ Based on [Airbnb Javascript Style Guide (ES5)](https://github.com/airbnb/javascr
 
 ## Whitespace
 
-  - Use soft tabs set to 2 spaces.
+  - Use soft tabs set to 4 spaces.
 
     ```javascript
     // bad
